@@ -1,4 +1,4 @@
-# 1 - Muestra "Hola, Ruby" por pantalla y salta de línea
+# 1 - Muestra "Hola, Ruby" por pantalla y salta de linea
 
 puts "Hola, Ruby"
 
@@ -6,10 +6,6 @@ puts "Hola, Ruby"
 
 print "Hola, Ruby"
 
-# 3 - Muestra un bloque de texto sin utilizar 'puts' o 'print'
+# 3 - Muestra "Hola, Ruby", incluyendo las comillas, y salta de linea
 
-=
-Esto es un
-bloque de texto
-con 3 lineas   
-=
+p "Hola, Ruby"
