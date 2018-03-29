@@ -8,8 +8,8 @@ print "Hola, Ruby"
 
 # 3 - Muestra un bloque de texto sin utilizar 'puts' o 'print'
 
-=begin
+=
 Esto es un
 bloque de texto
-con 3 lineas.   
-=end
+con 3 lineas   
+=
