@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 # 1 - Muestra "Hola, Ruby" por pantalla y salta de linea
 
 puts "Hola, Ruby"
@@ -47,3 +49,20 @@ puts "Hola, Ruby".length
 # 11 - Transforma una expresión aritmética y la muestra en una cadena de texto
 
 puts "31 + 41 = #{31+41}"
+
+# 12 - Crea un método 'muestra_texto()', le pasa un parámetro y devuelve el texto completo
+
+def muestra_texto(texto)
+    "Hola, #{texto}"
+end
+puts muestra_texto("Ruby")
+
+# 13 - Comprueba si dos cadenas de texto son equivalentes
+
+texto1 = "Hola, Ruby"
+texto2 = "Hola, Ruby"
+if texto1.eql?(texto2)
+    puts "Ambas cadenas de texto son identicas"
+else
+    puts "Las cadenas de texto son diferentes"
+end
