@@ -66,3 +66,7 @@ if texto1.eql?(texto2)
 else
     puts "Las cadenas de texto son diferentes"
 end
+
+# 14 - Muestra los carácteres de la 'a' a la 'z' dentro de una lista, con saltos de linea
+
+puts ('a'..'z').to_a
