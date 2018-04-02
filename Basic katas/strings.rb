@@ -50,7 +50,7 @@ puts "Hola, Ruby".length
 
 puts "31 + 41 = #{31+41}"
 
-# 12 - Crea un método 'muestra_texto()', le pasa un parámetro y devuelve el texto completo
+# 12 - Crea un método 'muestra_texto()', le pasa un parámetro y devuelve un texto completo
 
 def muestra_texto(texto)
     "Hola, #{texto}"
@@ -67,6 +67,6 @@ else
     puts "Las cadenas de texto son diferentes"
 end
 
-# 14 - Muestra los carácteres de la 'a' a la 'z' dentro de una lista, con saltos de linea
+# 14 - Muestra los carácteres de la 'a' a la 'z' dentro de una lista, saltando de linea
 
 puts ('a'..'z').to_a
